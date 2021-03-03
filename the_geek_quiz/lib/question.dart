@@ -25,7 +25,7 @@ class Question extends StatelessWidget {
             ),
           ]),
       child: Text(
-        questionText,
+        this.questionText,
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 26),
       ),
